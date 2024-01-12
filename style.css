@@ -1,0 +1,244 @@
+a{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 10px 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1;
+}
+.logo{
+    
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    color:rgb(162, 179, 11);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.btn-reserve{
+    padding:  10px 20px;
+    background:orange;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.btn-reserve:hover{
+    background: blue;
+   transition: ease-out;
+   color: black;
+}
+li a:hover{
+    color:orange;
+    border-bottom: 2px solid orange;
+}
+.bannière{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bannière_restaurant.jpg');
+    background-size: cover;
+}
+.contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.contenu h2{
+    color:rgb(199, 231, 14);
+    text-transform: capitalize;
+     font-size: 48px;
+}
+.btn1{
+    font-size:16px;
+    color:white;
+    background: orange;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.btn2{
+    font-size:16px;
+    color:white;
+    background:blueviolet;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+.row{
+    position:relative;
+    width: 98%;
+    display:flex;
+    justify-content: center;
+}
+.row.col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row.col50 h2{
+    margin-bottom: 20px;
+}
+.titre-texte{
+    color: black;
+    font-size: 1em;
+    font-weight: 100px;
+    text-transform: capitalize;
+}
+.titre-texte span{
+    color: blue;
+    font-size: 1.5em;
+    font-weight: 700px;
+}
+.row.col50 img{
+    height: 450px;
+    width: 600px;
+    position: relative;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.menu{
+    margin-top:-100px;
+}
+.contenue{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.box{
+    width: 300px;
+    margin: 20px;
+    border: 20px solid #031124;
+    box-shadow: 20px 15px 30px rgba(0, 0, 0, 0.5);
+}
+.inbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.inbox img{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.box.text{
+    text-align: center;
+    font-weight: 300px;
+    color: #111;
+}
+.box.text h3{  
+    font-weight: 400px;
+}
+.contact{
+    background-image:url(food-background.jpg) ;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8) ;
+    width: 100%;
+    background-position: unset;
+}
+.forme{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+.inputboit{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.forme h3{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.inputboit input,
+.inputboit textarea{
+    width: 100%;
+    border: 1px solid#555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300px;
+    resize: none;
+}
+.inputboit input[type=submit]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: #fb911f;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0,5s;
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+header.sticky{
+    background: #fff;
+    padding: 10px 80px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+header.sticky.navbar li a {
+    color: #000;
+}
+section{
+    padding: 140px;
+}
+.reservation{
+    background-image: url(Flaches_Poulet.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(10, 10, 10, 0.4) ;
+    width: 100%;
+    background-position: unset;
+}
